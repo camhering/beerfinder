@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Find Beer</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Beer Finder</h1>
+
+      <p>To help you find your ideal beer we need to know a little bit about you!</p>
+
+      <form id="beer">
+        <!--<div class="form-group">
+          <label for="control">Do you like to be in control?</label>
+          <input id="control" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="jeans">Do you wear skinny jeans?</label>
+          <input id="jeans" class="form-control" type="text">
+        </div> -->
+
+        <h1>Gender</h1>
+
+        <select class="form-control" id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <h2>Your ideal vacation spot</h2>
+
+        <select class="form-control" id="vacation">
+          <option value="beach">Beach</option>
+          <option value="mountains">Mountains</option>
+          <option value="desert">Desert</option>
+          <option value="city">City</option>
+        </select>
+
+        <!--<div class="form-group">
+          <label for="motorcycle">Do you drive a motorcycle?</label>
+          <input id="motorcycle" class="form-control" type="text">
+        </div> -->
+
+        <button type="submit" class="btn">Find me beer!</button>
+
+      </form>
+
+      <div id="yourbeer">
+        <p>Based on our calculations, we think that <span id="perfect"> </span> will be the perfect beer for you!</p>
+      </div>
+    </div>
+
+  </body>
+</html>
